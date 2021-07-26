@@ -12,5 +12,7 @@ notifications:
 install: /bin/true
 
 script:
+  - echo "skipping tests"
   - mvn clean
   - mvn install
+  
